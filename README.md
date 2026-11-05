@@ -47,6 +47,8 @@ Planned projects will get their own repositories when development starts.
 - Separated modules for game rules, AI, and UI
 - Automated Node tests for win detection, illegal moves, and AI move validity
 
+**Live demo:** [https://mason-su.github.io/ai-gomoku/](https://mason-su.github.io/ai-gomoku/)
+
 Open the [ai-gomoku README](https://github.com/mason-su/ai-gomoku#readme) for file layout, rules, AI algorithm notes, local run steps, and GitHub Pages deployment.
 
 ## Technologies Covered
