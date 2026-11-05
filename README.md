@@ -23,7 +23,7 @@ I am learning how to:
 ## Learning Roadmap
 
 1. **AI-Assisted Development Foundations** — build small apps with an AI coding agent, understand file roles, and verify results locally.
-2. **Interactive Frontend Logic** — game state, user interaction, and clean UI structure (Tic-Tac-Toe).
+2. **Interactive Frontend & Game AI** — board state, UI interaction, heuristics, and search (Gomoku / Five in a Row).
 3. **Applied AI Features** — recommendation-style logic and structured data handling (Recipe Recommender).
 4. **AI Engineering & Agents** — retrieval, grounding, and a recruitment-focused agent workflow (RAG and Recruitment Agent).
 
@@ -32,21 +32,32 @@ I am learning how to:
 | Project | Status | Repository | Description |
 |---------|--------|------------|-------------|
 | Calculator | Completed | [ai-calculator](https://github.com/mason-su/ai-calculator) | Responsive web calculator built with HTML, CSS, and JavaScript |
-| Tic-Tac-Toe | Planned | — | Interactive game focused on state management and UI logic |
+| Gomoku (Five in a Row) | Completed | [ai-gomoku](https://github.com/mason-su/ai-gomoku) | Browser Gomoku with PvP and three AI levels (heuristic + Minimax) |
 | Recipe Recommender | Planned | — | Recommendation-style app based on user preferences |
 | RAG and Recruitment Agent | Planned | — | Retrieval-augmented agent for recruitment-related tasks |
 
 Planned projects will get their own repositories when development starts.
 
+### Gomoku — brief intro
+
+[ai-gomoku](https://github.com/mason-su/ai-gomoku) is a freestyle Five-in-a-Row game that runs entirely in the browser (no backend, no external AI APIs). It grew out of an earlier Tic-Tac-Toe exercise and now includes:
+
+- A responsive 15×15 board with stones on intersections
+- Player vs Player and Player vs AI (Easy / Medium / Hard)
+- Separated modules for game rules, AI, and UI
+- Automated Node tests for win detection, illegal moves, and AI move validity
+
+Open the [ai-gomoku README](https://github.com/mason-su/ai-gomoku#readme) for file layout, rules, AI algorithm notes, local run steps, and GitHub Pages deployment.
+
 ## Technologies Covered
 
 **Current**
 - HTML5, CSS3, Vanilla JavaScript
+- Game-state design, heuristic evaluation, Minimax with Alpha-Beta pruning
 - Git and GitHub repository organization
 - AI-assisted coding workflow with Cursor Agent
 
 **Upcoming (planned)**
-- Frontend interaction patterns and game state
 - Structured data / recommendation logic
 - RAG concepts, embeddings, and agent tooling
 
@@ -55,7 +66,7 @@ Planned projects will get their own repositories when development starts.
 - [x] Set up a main learning portfolio repository
 - [x] Complete the first AI-assisted calculator project
 - [x] Split the calculator into an independent repository
-- [ ] Build Tic-Tac-Toe as a standalone project
+- [x] Build Gomoku as a standalone project (with local AI opponents)
 - [ ] Build Recipe Recommender as a standalone project
 - [ ] Build RAG and Recruitment Agent as a standalone project
 
